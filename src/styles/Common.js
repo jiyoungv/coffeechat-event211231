@@ -1,8 +1,7 @@
 import styled from 'styled-components';
-import { fontFamily, colors } from './Variable';
+import { colors } from './Variable';
 import { clearFix } from './Mixin';
 
-const { gilroy } = fontFamily;
 const { midnight500, midnight600 } = colors;
 
 export const Inners = styled.div`
@@ -16,7 +15,7 @@ export const Inners = styled.div`
 export const Layouts = styled.div`
     min-width: 320px;
     max-width: 414px;
-    margin: 0 auto 24px;
+    margin: 0 auto;
 `;
 
 export const Subs = styled.div`
@@ -25,13 +24,13 @@ export const Subs = styled.div`
     h2 {
         margin-bottom: 10px;
         font-size: 20px;
+        line-height: 1.4;
         letter-spacing: -0.03em;
         color: ${midnight600};
     }
 
     h6 {
         margin-bottom: 10px;
-        font-family: ${gilroy};
         font-size: 12px;
         letter-spacing: 0.1em;
         color: #250CD0;

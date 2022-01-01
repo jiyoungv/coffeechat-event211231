@@ -1,8 +1,5 @@
 import styled from 'styled-components';
-import { fontFamily } from '../../styles/Variable';
 import hero_bg from '../../assets/images/hero_bg.png';
-
-const { gilroy } = fontFamily;
 
 export const Heros = styled.section`
     padding: 40px 0 45px;
@@ -18,7 +15,6 @@ export const Heros = styled.section`
 
         h2 {
             margin-bottom: 24px;
-            font-family: ${gilroy};
             font-size: 14px;
             letter-spacing: 0.1em;
             color: #2332E6;
