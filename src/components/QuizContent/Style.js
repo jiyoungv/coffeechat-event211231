@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { clearFix } from '../../styles/Mixin';
 
 export const QuizContents = styled.article`
-    margin-top: 30px;
+    margin: 30px 0;
     padding: 0 40px 30px;
     border-radius: 20px;
     background: #F5F7FA;

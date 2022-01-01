@@ -10,6 +10,7 @@ export const Hints = styled.section`
         h2 {
             margin-bottom: 20px;
             font-size: 20px;
+            font-weight: 700;
             line-height: 1.4;
             letter-spacing: -0.03em;
             color: #FDFDFF;

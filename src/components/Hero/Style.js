@@ -16,6 +16,7 @@ export const Heros = styled.section`
         h2 {
             margin-bottom: 24px;
             font-size: 14px;
+            font-weight: 700;
             letter-spacing: 0.1em;
             color: #2332E6;
         }
@@ -30,6 +31,7 @@ export const Heros = styled.section`
         
         h6 {
             margin-bottom: 20px;
+            font-weight: 700;
             color: white;
         }
 

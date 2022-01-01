@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Quizs = styled.section`
-    padding: 30px 0;
+    padding-top: 30px;
 
     .quiz-inner {
         max-width: 335px;

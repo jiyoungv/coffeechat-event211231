@@ -35,12 +35,14 @@ export const Links = styled.section`
         h6 {
             margin-bottom: 20px;
             font-size: 12px;
+            font-weight: 700;
             line-height: 1;
             letter-spacing: 0.1em;
         }
 
         h5 {
             font-size: 13px;
+            font-weight: 700;
             letter-spacing: 0;
 
             &.type2 {

@@ -5,7 +5,7 @@ const Hint = () => {
     return (
         <Hints>
             <div className="hint-txt">
-                <h2><b>잠깐!</b></h2>
+                <h2>잠깐!</h2>
                 <p>                    
                     커피챗 퀴즈 풀기 전,<br/>
                     커피챗의 새로운 영상을 확인해보세요.<br/> 

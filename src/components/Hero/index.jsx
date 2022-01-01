@@ -7,7 +7,7 @@ const Hero = () => {
         <Heros>
             <div className="hero-inner">
                 <div className="hero-title">
-                    <h2><b>LAUNCHING EVENT</b></h2>
+                    <h2>LAUNCHING EVENT</h2>
                     <h1>
                         <figure>
                             <img src={hero_title} alt="인맥이 못하면 커피챗이 한다." />
@@ -16,8 +16,8 @@ const Hero = () => {
                 </div>
                 <div className="hero-txt">
                     <h6>
-                        <b>커피챗은 국내 최초 1:1 익명 기반<br/>
-                        커리어 대화 연결 플랫폼입니다.</b>
+                        커피챗은 국내 최초 1:1 익명 기반<br/>
+                        커리어 대화 연결 플랫폼입니다.
                     </h6>
                     <p>
                         네트워크에만 의존했던 지난 날을 뛰어 넘어<br/>
