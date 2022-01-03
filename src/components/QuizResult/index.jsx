@@ -1,12 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { QuizResults } from './Style';
 import { Subs } from '../../styles/Common';
 import quiz_result from '../../assets/images/quiz_result.png';
 
-const QuizResult = ({ duplicate, deadline }) => {
+const QuizResult = ({ close, duplicate }) => {
     return (
         <QuizResults>
-            <div className={deadline ? "quiz-result-info type2" : "quiz-result-info"}>
+            <div className={close ? "quiz-result-info type2" : "quiz-result-info"}>
                 <Subs type2>
                     <h6>congratulation!</h6>
                     <h2>
@@ -15,13 +16,13 @@ const QuizResult = ({ duplicate, deadline }) => {
                     </h2>
                 </Subs>
                 {duplicate && <p>이미 참여하신 고객입니다.</p>}
-                {deadline &&
+                {close &&
                     <p>
                         선착순 5,000명 마감되어서 아쉽지만<br/>
                         다음에 또 참여해주세요.
                     </p>
                 }
-                {deadline ||
+                {close ||
                     <figure className={duplicate ? "type2" : ""}>
                         <img src={quiz_result} alt="" />
                     </figure>
@@ -40,6 +41,11 @@ const QuizResult = ({ duplicate, deadline }) => {
             </div>
         </QuizResults>
     );
+};
+
+QuizResult.propTypes = {
+    close: PropTypes.bool,
+    duplicate: PropTypes.bool,
 };
 
 export default QuizResult;

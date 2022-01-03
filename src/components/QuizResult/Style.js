@@ -4,7 +4,7 @@ import quiz_bg from '../../assets/images/quiz_bg.png';
 
 const { midnight500 } = colors;
 
-export const QuizResults = styled.div`
+export const QuizResults = styled.article`
     .quiz-result-info {
         padding: 30px 0 16px;
         background: #000;
@@ -24,6 +24,10 @@ export const QuizResults = styled.div`
                 margin-top: -8px;
                 margin-bottom: -8px;
             }
+
+            img {
+                display: block;
+            }
         }
 
         &.type2 {
@@ -40,8 +44,9 @@ export const QuizResults = styled.div`
     }
 
     .quiz-result-desc-list {
-        max-width: 327px;
+        max-width: 375px;
         margin: 0 auto;
+        padding: 0 24px;
 
         > li {
             position: relative;

@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-export const Hints = styled.section`
+export const Videos = styled.section`
     padding-top: 30px;
     background: #060606;
 
-    .hint-txt {
+    .video-txt {
         text-align: center;
 
         h2 {
@@ -26,8 +26,19 @@ export const Hints = styled.section`
         }
     }
 
-    .hint-youtube {
+    .video-youtube {
         margin-top: 20px;
+        position: relative;
+        height: 0;
+        padding-bottom: 56.25%;
         background: #2E2E2E;
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     }
 `;

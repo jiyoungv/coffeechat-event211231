@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 import { clearFix } from '../../styles/Mixin';
 
-export const QuizContents = styled.article`
-    margin: 30px 0;
-    padding: 0 40px 30px;
+export const QuizMains = styled.article`
+    margin-top: 30px;
+    padding: 16px 40px 30px;
     border-radius: 20px;
     background: #F5F7FA;
   
-    .quiz-content-text {
-        min-height: 175px;
+    .quiz-main-text {
+        min-height: 160px;
+        padding-bottom: 10px;
         text-align: center;
 
         h2 {
@@ -20,8 +21,9 @@ export const QuizContents = styled.article`
         }
 
         h6 {
+            margin-bottom: 10px;
             font-size: 40px;
-            line-height: 1.4;
+            line-height: 1.25;
             letter-spacing: 0.1em;
             color: #FF5CAE;
         }
@@ -34,7 +36,7 @@ export const QuizContents = styled.article`
         }
     }
 
-    .quiz-content-line {
+    .quiz-main-line {
         display: inline-block;
         width: 30px;
         height: 2px;
@@ -50,11 +52,11 @@ export const QuizContents = styled.article`
 
         > div {
             float: left;
-            width: 50%;
+            width: calc(100% - 92px);
             margin-top: 18px;
         
             &:nth-child(even) {
-                padding-left: 38px;
+                width: 92px;
             }
 
             &:nth-child(-n+2) {
@@ -74,5 +76,10 @@ export const QuizContents = styled.article`
         background: linear-gradient(135deg, #353AF6 0%, #353AF6 100%);
         box-shadow: 0px 2px 16px rgba(108, 163, 245, 0.48);
         color: white;
+        transition: opacity 0.3s;
+
+        &.loading {
+            opacity: 0.7;
+        }
     }
 `;

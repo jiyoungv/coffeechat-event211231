@@ -8,8 +8,9 @@ export const Links = styled.section`
     background: #060606;
 
     .link-content {
-        max-width: 335px;
+        max-width: 375px;
         margin: 0 auto;
+        padding: 0 20px;
     }
 
     .link-list {
@@ -20,7 +21,8 @@ export const Links = styled.section`
     .link-item {
         float: left;
         position: relative;
-        width: 160px;
+        // width: 160px;
+        width: calc((100% - 30px) / 2);
         height: 180px;
         margin: 7.5px;
         padding: 38px 20px 0;

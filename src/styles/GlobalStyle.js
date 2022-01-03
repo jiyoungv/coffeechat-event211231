@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 import { fontFamily } from './Variable';
+import { hidden } from './Mixin';
 
 const { gilroy, notoSans } = fontFamily;
 
@@ -75,9 +76,8 @@ const GlobalStyle = createGlobalStyle`
 		max-width: 100%;
 	}
 
-	#root {
-		overflow-x: hidden;
-		
+	.hidden {
+		${hidden};
 	}
 `;
 

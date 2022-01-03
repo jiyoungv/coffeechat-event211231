@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 
 export const Quizs = styled.section`
-    padding-top: 30px;
+    .quiz-area {
+        padding: 30px 0;
+    }
 
-    .quiz-inner {
-        max-width: 335px;
+    .quiz-area-inner {
+        max-width: 375px;
         margin: 0 auto;
+        padding: 0 20px;
     }
 `;

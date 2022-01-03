@@ -4,7 +4,7 @@ const quizData = [
     {
         id: shortid.generate(),
         title: `
-            ‘<span className="quiz-content-line type2"></span> 이 못하면 커피챗이 한다’에<br/>
+            ‘<span className="quiz-main-line type2"></span> 이 못하면 커피챗이 한다’에<br/>
             들어갈 단어는?
         `,
         choice: ['검색', '인맥', '운명', '인스타그램'],
@@ -36,7 +36,7 @@ const quizData = [
         id: shortid.generate(),
         title: `
             커피챗 프리 런칭 편에 등장하는<br/>
-            인물은 총 <span className="quiz-content-line"></span>명? 
+            인물은 총 <span className="quiz-main-line"></span>명? 
         `,
         description: `
             (단, 강아지 제외 / 중복 등장 제외)
@@ -54,7 +54,7 @@ const quizData = [
         id: shortid.generate(),
         title: `
             커피챗을 가장 많이한 파트너<br/>
-            '키코'님은 총 <span className="quiz-content-line"></span>번?
+            '키코'님은 총 <span className="quiz-main-line"></span>번?
         `,
         description: `
             (21년 12월 31일 기준)<br/>
@@ -72,7 +72,7 @@ const quizData = [
     {
         id: shortid.generate(),
         title: `
-            전 세계 <span className="quiz-content-line"></span>개국 다양한 커리어의<br/>
+            전 세계 <span className="quiz-main-line"></span>개국 다양한 커리어의<br/>
             사람들과 커피챗 할 수 있어요
         `,
         choice: ['1개국', '10개국', '25개국', '60개국'],

@@ -11,10 +11,10 @@ export const Heros = styled.section`
     }
 
     .hero-title {
-        margin-bottom: 65px;
+        margin-bottom: 75px;
 
         h2 {
-            margin-bottom: 24px;
+            margin-bottom: 28px;
             font-size: 14px;
             font-weight: 700;
             letter-spacing: 0.1em;
@@ -23,6 +23,10 @@ export const Heros = styled.section`
 
         figure {
             max-width: 200px;
+
+            img {
+                display: block;
+            }
         }
     }
 

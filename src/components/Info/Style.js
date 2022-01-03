@@ -6,5 +6,9 @@ export const Infos = styled.section`
     .info-img {
         max-width: 228px;
         margin: 7px auto 0;
+
+        img {
+            display: block;
+        }
     }
 `;

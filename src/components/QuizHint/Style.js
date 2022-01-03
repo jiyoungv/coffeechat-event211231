@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const QuizHints = styled.section`
+export const QuizHints = styled.article`
     position: absolute;
     top: 0;
     left: 0;
