@@ -20,7 +20,7 @@ const quizData = [
     {
         id: shortid.generate(),
         title: `
-            ‘국내 최초 1:1 익명 기반<br/>
+            국내 최초 1:1 익명 기반<br/>
             커리어 대화 연결 플랫폼의 이름은?
         `,
         choice: ['커피톡', '카피캣', '커피챗', '티타임'],

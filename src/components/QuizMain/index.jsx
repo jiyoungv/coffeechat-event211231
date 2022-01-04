@@ -17,6 +17,11 @@ const QuizMain = ({ logIn, data, quizNumber, lastQuizNumber, applyLoad, setQuizN
             return;
         }
 
+        if (selectNumber === 0) { // 라디오 체크 여부
+            alert('답을 체크해주세요!');
+            return;
+        }
+
         if (!correct) { // 정답 여부 체크
             setHint(true);
             return;
@@ -57,7 +62,7 @@ const QuizMain = ({ logIn, data, quizNumber, lastQuizNumber, applyLoad, setQuizN
                     })}
                 </div>
                 <button type="submit" className={!applyLoad ? "quiz-form-button" : "quiz-form-button loading"}>
-                    {!applyLoad ? "확인" : "로딩중입니다..."}
+                    {!applyLoad ? "확인" : "정답 확인 중이에요!"}
                 </button>
             </form>
         </QuizMains>
