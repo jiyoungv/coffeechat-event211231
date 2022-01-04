@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { colors } from './Variable';
 import { clearFix, fontBold } from './Mixin';
 
-const { midnight500, midnight600 } = colors;
+const { midnight400, midnight500, midnight600 } = colors;
 
 export const Inners = styled.div`
     position: relative;
@@ -41,12 +41,12 @@ export const Subs = styled.div`
     }
 
     p {
-        margin-bottom: 10px;
         font-size: 13px;
         color: ${midnight500};
 
-        &:last-child {
-            margin-bottom: 0;
+        &.type2 {
+            margin-bottom: 10px;
+            color: ${midnight400};
         }
     }
 `;

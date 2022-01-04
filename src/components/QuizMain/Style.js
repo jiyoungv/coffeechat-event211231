@@ -9,6 +9,7 @@ export const QuizMains = styled.article`
   
     .quiz-main-text {
         min-height: 160px;
+        margin: 0 -30px;
         padding-bottom: 10px;
         text-align: center;
 
