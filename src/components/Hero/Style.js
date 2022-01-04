@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import hero_bg from '../../assets/images/hero_bg.png';
+import { fontBold } from '../../styles/Mixin';
 
 export const Heros = styled.section`
     padding: 40px 0 45px;
@@ -16,7 +17,7 @@ export const Heros = styled.section`
         h2 {
             margin-bottom: 28px;
             font-size: 14px;
-            font-weight: 700;
+            ${fontBold}
             letter-spacing: 0.1em;
             color: #2332E6;
         }
@@ -35,7 +36,7 @@ export const Heros = styled.section`
         
         h6 {
             margin-bottom: 20px;
-            font-weight: 700;
+            ${fontBold}
             color: white;
         }
 

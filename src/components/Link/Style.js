@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { clearFix } from '../../styles/Mixin';
+import { clearFix, fontBold } from '../../styles/Mixin';
 import link_arrow from '../../assets/images/link_arrow.svg';
 import link_bg1 from '../../assets/images/link_bg1.png';
 
@@ -37,14 +37,14 @@ export const Links = styled.section`
         h6 {
             margin-bottom: 20px;
             font-size: 12px;
-            font-weight: 700;
+            ${fontBold}
             line-height: 1;
             letter-spacing: 0.1em;
         }
 
         h5 {
             font-size: 13px;
-            font-weight: 700;
+            ${fontBold}
             letter-spacing: 0;
 
             &.type2 {

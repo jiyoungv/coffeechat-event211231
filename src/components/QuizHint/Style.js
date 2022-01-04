@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { fontBold } from '../../styles/Mixin';
 
 export const QuizHints = styled.article`
     position: absolute;
@@ -19,7 +20,7 @@ export const QuizHints = styled.article`
         
         p {
             font-size: 18px; 
-            font-weight: 700;
+            ${fontBold}
             line-height: 1.4;
             letter-spacing: -0.03em;
             color: white;

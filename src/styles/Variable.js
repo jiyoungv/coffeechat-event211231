@@ -1,6 +1,7 @@
 export const fontFamily = {
     notoSans: 'Noto Sans KR',
-    gilroy: 'Gilroy',
+    gilroyR: 'Gilroy Regular',
+    gilroyB: 'Gilroy ExtraBold',
 };
 
 export const colors = {

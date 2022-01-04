@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { clearFix } from '../../styles/Mixin';
+import { clearFix, fontBold } from '../../styles/Mixin';
 
 export const QuizMains = styled.article`
     margin-top: 30px;
@@ -14,7 +14,7 @@ export const QuizMains = styled.article`
 
         h2 {
             font-size: 18px;
-            font-weight: 700;
+            ${fontBold}
             line-height: 1.4;
             letter-spacing: -0.03em;
             color: #2332E6;
@@ -72,7 +72,7 @@ export const QuizMains = styled.article`
         padding: 10px;
         border-radius: 4px;
         text-align: center;
-        font-weight: 700;
+        ${fontBold}
         background: linear-gradient(135deg, #353AF6 0%, #353AF6 100%);
         box-shadow: 0px 2px 16px rgba(108, 163, 245, 0.48);
         color: white;

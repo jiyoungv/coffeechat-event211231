@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { hidden } from '../../styles/Mixin';
+import { hidden, fontBold } from '../../styles/Mixin';
 import { colors } from '../../styles/Variable';
 
 const { midnight500 } = colors;
@@ -22,7 +22,7 @@ export const QuizChoices = styled.div`
 
     label {
         font-size: 13px;
-        font-weight: 700;
+        ${fontBold}
         color: ${midnight500};
         cursor: pointer;
 

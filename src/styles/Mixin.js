@@ -1,4 +1,7 @@
 import { css } from 'styled-components';
+import { fontFamily } from './Variable';
+
+const { gilroyB, notoSans } = fontFamily;
 
 export const clearFix = css`
     &::after {
@@ -15,4 +18,9 @@ export const hidden = css`
     opacity: 0;
     width: 1px;
     height: 1px;
+`;
+
+export const fontBold = css`
+    font-family: ${gilroyB}, ${notoSans}, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
 `;

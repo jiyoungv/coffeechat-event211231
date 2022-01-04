@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { colors } from './Variable';
-import { clearFix } from './Mixin';
+import { clearFix, fontBold } from './Mixin';
 
 const { midnight500, midnight600 } = colors;
 
@@ -24,7 +24,7 @@ export const Subs = styled.div`
     h2 {
         margin-bottom: 10px;
         font-size: 20px;
-        font-weight: 700;
+        ${fontBold}
         line-height: 1.4;
         letter-spacing: -0.03em;
         color: ${midnight600};
@@ -34,7 +34,7 @@ export const Subs = styled.div`
     h6 {
         margin-bottom: 10px;
         font-size: 12px;
-        font-weight: 700;
+        ${fontBold}
         letter-spacing: 0.1em;
         color: #250CD0;
         ${props => props.type2 && 'color: #E467A6'};
