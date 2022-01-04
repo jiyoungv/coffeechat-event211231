@@ -24,6 +24,7 @@ export const QuizChoices = styled.div`
         font-size: 13px;
         font-weight: 700;
         color: ${midnight500};
+        cursor: pointer;
 
         i {
             display: inline-block;
